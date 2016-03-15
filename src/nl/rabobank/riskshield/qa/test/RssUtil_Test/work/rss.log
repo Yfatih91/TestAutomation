@@ -1,0 +1,47 @@
+ 16:12:24 | SYS0001 | I | RiskShield-Server
+ 16:12:24 | SYS0001 | I |   (c) 2002-2015 INFORM GmbH - Aachen - Germany
+ 16:12:24 | SYS0001 | I |   Version: 4.30c (2015-11-20 11:01)
+ 16:12:24 | SYS0001 | I |     RSS-API Version: 1.00a (2015-11-20 11:01)
+ 16:12:24 | SYS0001 | I |     CUCRT LIBRARY ABOUT
+ 16:12:24 | SYS0001 | I |     Calculation Unit: Collection, (c) 2002-2014 INFORM GmbH - version 51
+ 16:12:24 | SYS0001 | I |     build timestamp: Dec 15 2014 12:05:00
+ 16:12:24 | SYS0001 | I |     cucrtj.jar, (c) INFORM GmbH - build 198, 2013-12-11 10:36
+ 16:12:24 | SYS0001 | I |   Third party
+ 16:12:24 | SYS0001 | I |     Log engine powered by Apache Log4j-1.2.17 - http://logging.apache.org/log4j/1.2/
+ 16:12:24 | SYS0001 | I |     Database engine powered by Apache Derby-10.11.1.1 - http://db.apache.org/derby/
+ 16:12:24 | SYS0001 | I |     WEB engine powered by Eclipse Jetty-9.2.13 - http://www.eclipse.org/jetty/
+ 16:12:24 | SYS0001 | I |     Mail engine powered by Oracle JavaMail-1.5.3 - https://java.net/projects/javamail/
+ 16:12:24 | SYS0001 | I |     Java Message Service API powered by Oracle JMS-1.1 - http://www.oracle.com/
+ 16:12:24 | SYS0001 | I |     Time and Date library powered by JodaTime-2.8.2 - http://joda.org/joda-time/
+ 16:12:24 | SYS0001 | I |     LZ4 data compression powered by lz4-java-1.3.0 - https://github.com/jpountz/lz4-java/
+ 16:12:24 | SYS0001 | I |     jQuery & HTML5 UI framework powered by jQWidgets-3.8.2 - http://jqwidgets.com/
+ 16:12:24 | SYS0001 | I |   Java HotSpot(TM) 64-Bit Server VM (build 25.73-b02, mixed mode)
+ 16:12:24 | SYS0001 | I |     Oracle Corporation (1.8.0_73)
+ 16:12:24 | SYS0001 | I |     available processors = 4
+ 16:12:24 | SYS0001 | I |     max. memory = 3.513,00 MB
+ 16:12:24 | SYS0001 | I |     default charset = windows-1252, locale = nl_NL, timezone = Europe/Berlin
+ 16:12:24 | SYS0001 | I |   Host: BA91-5CG5174KFY.work.local
+ 16:12:24 | SYS0001 | I |     Windows 7 (version 6.1, architecture amd64)
+ 16:12:24 | SYS0001 | I | 
+ 16:12:25 | SRV1018 | I | loading project configuration file ...
+ 16:12:25 | SRV1010 | I | initializing server project 'test1' ...
+ 16:12:25 | SRV1013 | I | plugin 'Debug' on project 'test1' initialized successfully
+ 16:12:25 | SRV1015 | I | server project 'test1' initialized successfully
+ 16:12:25 | SRV1019 | I | loaded project configuration file successfully
+ 16:12:25 | SRV1065 | I | initializing service for cuc revision management, loading cuc revisions...
+ 16:12:25 | SRV1066 | I | loading cuc revisions done in 2 ms: 0 operational, 0 rfp, 0 challenger, 0 archived
+ 16:12:25 | SRV0118 | I | [CsvService1] changed SO_REUSEADDRESS from false to true
+ 16:12:25 | SRV1001 | I | service 'CsvService1 [50001]' started successfully
+ 16:12:25 | SYS0031 | I | command receiver started on port 55556
+ 16:12:25 | SYS0002 | I | startup finished in 658 ms
+ 16:12:25 | SRV0119 | I | [CsvService1] Client(0x00000001): connected with local port 52981, now 1 connections (total clients: 1)
+ 16:12:25 | SRV0041 | D | PerformanceCounter.com.riskshield.server.service.CsvService1.request: processed 3 transactions in 0,09 ms, resulting in 33.216 tps (avg=0,03, min=0,01, max=0,07)
+ 16:12:25 | SRV0041 | D | PerformanceCounter.com.riskshield.server.service.CsvService1.response: processed 3 transactions in 0,21 ms, resulting in 14.080 tps (avg=0,07, min=0,01, max=0,12)
+ 16:12:25 | SRV0122 | I | [CsvService1] Client(0x00000001): disconnected with local port 52981, now 0 connections (total clients: 0)
+ 16:12:25 | SYS0015 | I | received Stop command, terminating system...
+ 16:12:25 | SRV1004 | I | service 'CsvService1': terminating ...
+ 16:12:25 | SRV1005 | I | service 'CsvService1' terminated
+ 16:12:25 | SRV1017 | I | terminating server project pool ...
+ 16:12:25 | SRV0041 | D | PerformanceCounter.com.riskshield.server.plugin.test1.DebugPlugin.Debug.1: processed 2 transactions in 0,01 ms, resulting in 243.605 tps (avg=0,00, min=0,00, max=0,01)
+ 16:12:25 | SRV0041 | D | PerformanceCounter.com.riskshield.server.project.test1: processed 2 transactions in 0,03 ms, resulting in 64.954 tps (avg=0,02, min=0,00, max=0,03)
+ 16:12:25 | SYS0005 | I | shutdown finished in 9 ms
