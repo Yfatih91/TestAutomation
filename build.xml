@@ -38,7 +38,7 @@
 	<!-- Run the JUnit Tests -->
 	<!-- Output is XML, could also be plain-->
 	 <target name="junit" depends="compile">
-		<junit printsummary="on" fork="true" haltonfailure="false">
+		<junit printsummary="on" fork="true" haltonfailure="true">
 			<classpath refid="inform.class.path" />
 			<formatter type="xml" />
 			<batchtest todir="${report.dir}">
